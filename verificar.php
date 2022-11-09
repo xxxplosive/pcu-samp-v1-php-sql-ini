@@ -26,10 +26,10 @@ if (isset($_POST['login'])) {
 }
 
 class Datos_conexion {
-	private $host_="40136370.servicio-online.net";
-	private $usuario_="adminweb";
-	private $pasword_="_q6d6oB9";
-	private $Db_="9086405_bdpadmin";
+	private $host_="host";
+	private $usuario_="usuario";
+	private $pasword_="contraseña";
+	private $Db_="basededatos";
 	/**
 	 * Devuelve el nombre de hsot
 	 * @return [type] [string]
